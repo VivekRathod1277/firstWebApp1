@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUV Khelaiya</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: rgb(254, 235, 238);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120vh;
+        }
+        
+        .form-container {
+            background-color: aliceblue;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            width: 350px;
+        }
+        
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: black;
+        }
+        
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        input {
+            width: 95%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: rgb(27, 131, 250);
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background: #0015ff;
+        }
+        
+        input:hover {
+            background: rgb(194, 194, 194);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Nuv Khelaiya <br>Registration</h2>
+        <form action="#" method="POST">
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="name">Last Name</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="enrollment">Enrollment Id</label>
+            <input type="text" id="Enrollment" name="Enrollment" required><br><br>
+
+            <label for="date">Date of Birth</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="Mobile Number">Mobile Number</label>
+            <input type="tel" id="Mobile Number" name="Mobile Number" required><br><br>
+
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
